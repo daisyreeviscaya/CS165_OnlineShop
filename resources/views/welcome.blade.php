@@ -75,9 +75,8 @@
 
                 <div class="links">
 
-                  <div>  <i>"Where you can buy everything that is forbidden"</i> </div>
-                    <div>  <i>"We sell products that can only be found here."</i> </div>
-                    <div>  <i>"They say the best things in life are free. But our products are not/costy/costly."</i> </div>
+
+                    <div>  <i>"They say the best things in life are free. But our products are not and will never be."</i> </div>
                       <br>
                       <a  style ="color: #e6c79c" href="{{ url('/login') }}">  <span class="glyphicon glyphicon-user"></span>Login</a>
                         <a style = "color: #6fd08c" href="{{ url('/register') }}"> <span class="glyphicon glyphicon-log-in"></span> Register</a>
