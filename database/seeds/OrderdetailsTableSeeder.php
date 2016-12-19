@@ -11,7 +11,7 @@ class OrderdetailsTableSeeder extends Seeder
      */
     public function run()
     {
-      DB::table('carts')->insert([
+      DB::table('orderdetails')->insert([
           'cart_id'	=>	1,
           'product_id'  =>  1,
           'product_name'  =>  'Love',
@@ -19,7 +19,7 @@ class OrderdetailsTableSeeder extends Seeder
           'product_quantity'  => 1 ,
       ]);
 
-      DB::table('carts')->insert([
+      DB::table('orderdetails')->insert([
           'cart_id'	=>	1,
           'product_id'  =>  3,
           'product_name'  =>  'Dreams',
@@ -27,7 +27,7 @@ class OrderdetailsTableSeeder extends Seeder
           'product_quantity'  => 1 ,
       ]);
 
-      DB::table('carts')->insert([
+      DB::table('orderdetails')->insert([
           'cart_id'	=>	1,
           'product_id'  =>  4,
           'product_name'  =>  'Conscience',
@@ -36,7 +36,7 @@ class OrderdetailsTableSeeder extends Seeder
       ]);
 
 
-      DB::table('carts')->insert([
+      DB::table('orderdetails')->insert([
           'cart_id'	=>	2,
           'product_id'  =>  1,
           'product_name'  =>  'Love',
@@ -44,21 +44,21 @@ class OrderdetailsTableSeeder extends Seeder
           'product_quantity'  => 1 ,
       ]);
 
-      DB::table('carts')->insert([
+      DB::table('orderdetails')->insert([
           'cart_id'	=>	2,
           'product_id'  =>  1,
           'product_name'  =>  'Love',
           'product_price'  =>  1000,
           'product_quantity'  => 1 ,
       ]);
-      DB::table('carts')->insert([
+      DB::table('orderdetails')->insert([
           'cart_id'	=>	2,
           'product_id'  =>  1,
           'product_name'  =>  'Love',
           'product_price'  =>  1000,
           'product_quantity'  => 1 ,
       ]);
-      DB::table('carts')->insert([
+      DB::table('orderdetails')->insert([
           'cart_id'	=>	2,
           'product_id'  =>  1,
           'product_name'  =>  'Love',
