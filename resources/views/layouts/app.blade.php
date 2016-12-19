@@ -57,7 +57,7 @@
                             @if(Auth::user()->isAdmin == 1)
 
                             <li><a href="{{ url('/admin/users') }}">Manage Users</a></li>
-                            <li><a href="{{ url('/admin/products') }}">Shop</a></li>
+                            <li><a href="{{ url('/admin/products') }}">Manage Products</a></li>
                             <li class="dropdown">
 
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
